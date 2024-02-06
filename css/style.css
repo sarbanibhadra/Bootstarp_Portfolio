@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+  border-color: black;
+}
+/* 
+.flex_item {
+  padding:1px;
+  margin: 1px;
+  background-color: orange;
+  color: white;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  margin: 5px;
+  flex-wrap: wrap;
+}
+
+#column {
+  background-color: #E6F5FF;
+  flex-direction: column;
+}
+#row {
+  background-color: #e8bc37;
+  flex-direction: row;
+  text-align: center
+} */
+
+/* 
+.flex_item {
+  padding:10px;
+  margin: 10px;
+  background-color: orange;
+  color: white;
+}
+.flex {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+}
+#column {
+  background-color: #E6F5FF;
+  flex-direction: column;
+}
+#row {
+  background-color: #FFF7DE;
+  flex-direction: row;
+} */
+
+header {
+  display: flex;
+  padding: 5px;
+  margin: 5px;
+  justify-content: space-between;
+  background-color: #e8bc37;
+  color: #fff;
+  text-align: center;
+}
+
+
+
+h2 {
+  font-size: 40px;
+ 
+  text-align: right;
+}
+
+.position_bottom_right {
+  position: relative;
+  top: 30px;
+  left: 35px;
+}
+
+.position_centre_right {
+  position: relative;
+  top: 20px;
+  left: 50px;
+
+}
+
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 3;
+  font-size: 20px;
+}
+
+.blocktext {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70em
+}
+
+.hero-banner {
+  height: 250px;
+
+  background-image: url('../images/02-Portfolio-1.jpg');
+  background-size: cover;
+}
+
+.page-section
+{
+  display: flex;
+  padding: 5px;
+  margin: 5px;
+  background-color: #e5e4e7;
+  justify-content: space-between;
+}
+
+.vl {
+  border-left: 6px solid #505052;
+  height: 100px;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 20px;
+  text-align: left;
+  width: 100%;
+}
+
+.flex-item-left {
+  padding: 10px;
+  flex: 25%;
+}
+
+.flex-item-right {
+  padding: 10px;
+  flex: 75%;
+}
+
+
+
+
+
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .flex-item-right, .flex-item-left {
+    flex: 100%;
+  }
+}
+
+.textbox {
+  background-color: lightblue;
+  color:#16181b;
+  text-align: center;
+}
+
+.nav-text{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 25px; 
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: rgb(151, 42, 42);
+}
+
+nav a.active {
+  color: white;
+}
+
+.navc {
+  list-style-type: none;
+  
+}
+
+.navc li {
+  display: inline-block;
+  margin: 1;
+  padding: 5px;
+  font-size: 25px;
+
+}
