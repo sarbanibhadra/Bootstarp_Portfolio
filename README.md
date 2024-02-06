@@ -3,8 +3,6 @@
 ## Deployment URL:
 https://sarbanibhadra.github.io/Bootstarp_Portfolio/
 
-
-
 ## Overview
 
 In this assignment, you'll be building your portfolio layout using the Bootstrap CSS Framework.
