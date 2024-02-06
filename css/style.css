@@ -66,8 +66,6 @@ header {
   text-align: center;
 }
 
-
-
 h2 {
   font-size: 40px;
  
@@ -139,10 +137,6 @@ p {
   padding: 10px;
   flex: 75%;
 }
-
-
-
-
 
 /* Responsive layout - makes a one column-layout instead of a two-column layout */
 @media (max-width: 800px) {
